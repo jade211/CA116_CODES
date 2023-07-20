@@ -21,9 +21,9 @@ struct Numbers
 };
 
 /* Function Prototypes */
-/* Linked_List creates a linked list of all floats accepted from command line. */
+/* Linked_List creates a linked list of all ints accepted from the array */
 /* Add_At_Position finds the position of the first argv number in the array and inserts the second argv in after it. */
-/* Print_Linked_List prints out the floats coming from the linked list function. */
+/* Print_Linked_List prints out the ints coming from the linked list function. */
 Numbers* Linked_List(int linked_list_nums[], int *int_amount);
 Numbers* Add_At_Position(Numbers *start, int num_before, int added_num);
 void Print_Linked_List(Numbers *start);
